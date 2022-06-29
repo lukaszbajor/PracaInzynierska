@@ -1,0 +1,77 @@
+.header {
+  position: relative;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.header::before {
+  width: 10px;
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "";
+  display: block;
+  border: 2px solid #01212762;
+}
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  width: 300px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #1b7b8f;
+  box-shadow: 0 0 1em #01212762;
+}
+.back {
+  margin-top: 50px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.btns {
+  margin-top: 15px;
+}
+input:nth-child(1) {
+  margin-right: 3px;
+}
+
+.log {
+  margin-bottom: 15px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+  outline: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.log:focus {
+  border-bottom: 2px solid #01212762;
+}
+.sav {
+  margin-top: 15px;
+}
+.radioBox {
+  color: white;
+}
+.btns input {
+  padding: 7px;
+  border: none;
+  border-radius: 4px;
+  background-color: #e6812c;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 1em #01212762;
+}
+.btns input:hover {
+  background-color: #994700;
+}

@@ -1,0 +1,16 @@
+.log,
+.reg {
+  padding: 7px;
+  background-color: #e6812c;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.3s;
+  box-shadow: 0 0 1em #01212762;
+}
+.log:hover,
+.reg:hover {
+  background-color: #994700;
+}

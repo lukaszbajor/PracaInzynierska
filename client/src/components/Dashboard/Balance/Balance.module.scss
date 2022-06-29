@@ -1,0 +1,21 @@
+.wrap {
+  margin-left: 3px;
+  margin-right: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  align-self: center;
+  background-color: #e6812c;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  box-shadow: 0 0 1em #01212762;
+}
+@media (max-width: 880px) {
+  .wrap {
+    margin-top: -30px;
+    order: -1;
+  }
+}

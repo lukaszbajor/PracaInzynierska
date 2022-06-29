@@ -1,0 +1,10 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.first,
+.second {
+  display: flex;
+}

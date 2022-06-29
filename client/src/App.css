@@ -1,0 +1,29 @@
+.dark {
+  background-color: rgb(88, 84, 84);
+  color: white;
+}
+.box {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+.item {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.piggy {
+  font-size: 200px;
+  text-align: center;
+}
+.text {
+  margin-top: 30px;
+}
+
+@media (max-width: 992px) {
+  .box {
+    flex-direction: column;
+  }
+}

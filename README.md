@@ -22,4 +22,16 @@ Project is created with:
 
 ## App appearance
 
+![](interface/rejNIE.png)
+![](interface/rejpoprawna.png)
 ![](interface/poprawne_logowanie.png)
+![](interface/dodawanie.png)
+![](interface/dodawanieiwys.png)
+![](interface/cykliczne.png)
+![](interface/cytat.png)
+![](interface/darkmode.png)
+![](interface/dluznik.png)
+![](interface/statssss.png)
+![](interface/ustawienia.png)
+![](interface/wszystkie.png)
+![](interface/zmenu.png)

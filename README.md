@@ -9,7 +9,7 @@ I know that this code is not beautiful. This was my first big project wherein I 
 Project is created with:
 
 - Database: MySQL
-- Front-end: React.js + Axios + Chart.js
+- Front-end: React.js + Axios + Chart.js + Toastify.js
 - Back-end: Node.js + express.js
 
 ## Installation
@@ -19,3 +19,7 @@ Project is created with:
 - Import database,
 - In client and in server install node_modules by `npm install`,
 - Run `npm start` for both(I do it on two consoles).
+
+## App appearance
+
+![](interface/poprawne_logowanie.png)
